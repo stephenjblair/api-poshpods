@@ -1,12 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
-const creds = require('./config');
+// const creds = require('./config');
 
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.get('/', (req, res) => res.send('hello'));
+app.get('/', (req, res) => res.send('Ready to gooooo'));
 /* app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
@@ -16,8 +16,8 @@ app.get('/', (req, res) => res.send('hello'));
 const transport = {
 	service: "Godaddy",
 	auth: {
-		user: creds.user,
-		pass: creds.pass,
+		user: process.env.USER,
+		pass: process.env.PASS,
 	},
 };
 
