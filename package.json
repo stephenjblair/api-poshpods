@@ -1,50 +1,54 @@
 {
-  "name": "express-bootstrap",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.4",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "nodemailer": "^6.4.2"
-  },
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "jest --runInBand"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/plugin-proposal-export-default-from": "^7.2.0",
-    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
-    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
-    "@babel/preset-env": "^7.6.0",
-    "babel-eslint": "^10.0.3",
-    "cookie-parser": "^1.4.4",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.6.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "jest": "^24.9.0",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.18.7",
-    "prettier": "^1.19.1",
-    "supertest": "^4.0.2"
-  },
-  "description": "This project is a boilerplate for Node.js/Express applications. It also comes included with Jest, and Supertest for end-to-end testing.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jennyardrey/contact-form-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jennyardrey/contact-form-api/issues"
-  },
-  "homepage": "https://github.com/jennyardrey/contact-form-api#readme"
+	"name": "express-bootstrap",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.4",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"morgan": "^1.9.1",
+		"nodemailer": "^6.4.2"
+	},
+	"scripts": {
+		"start:dev": "nodemon app.js",
+		"start": "node app.js",
+		"test": "jest --runInBand"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.0",
+		"@babel/plugin-proposal-class-properties": "^7.5.5",
+		"@babel/plugin-proposal-export-default-from": "^7.2.0",
+		"@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+		"@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+		"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+		"@babel/preset-env": "^7.6.0",
+		"babel-eslint": "^10.0.3",
+		"cookie-parser": "^1.4.4",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.0.0",
+		"eslint-config-prettier": "^6.6.0",
+		"eslint-plugin-import": "^2.20.0",
+		"eslint-plugin-prettier": "^3.1.1",
+		"jest": "^24.9.0",
+		"morgan": "^1.9.1",
+		"nodemon": "^1.18.7",
+		"prettier": "^1.19.1",
+		"supertest": "^4.0.2"
+	},
+	"description": "This project is a boilerplate for Node.js/Express applications. It also comes included with Jest, and Supertest for end-to-end testing.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jennyardrey/contact-form-api.git"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jennyardrey/contact-form-api/issues"
+	},
+	"homepage": "https://github.com/jennyardrey/contact-form-api#readme"
 }
